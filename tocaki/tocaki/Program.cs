@@ -3,8 +3,6 @@ string userInput;
 
 while (!exit)
 {
-    Console.WriteLine("");
-
     Console.Write("Commande:");
     userInput = Console.ReadLine() ?? string.Empty;
 
