@@ -1,4 +1,5 @@
 ﻿using tocaki.a1_Helpers;
+using tocaki.a4_Dictionnary.a1;
 
 bool exit = false;
 string userInput;
@@ -35,6 +36,10 @@ while (!exit)
             Console.Write("Text français : ");
             textInput = Console.ReadLine() ?? string.Empty;
             Console.WriteLine(Tools.FrenchToTocaki(textInput));
+            break;
+        case "4":
+            Token_o token = new();
+            Console.WriteLine(token.PropertiesToString());
             break;
         default:
             Console.WriteLine("Commande non reconnue.");
