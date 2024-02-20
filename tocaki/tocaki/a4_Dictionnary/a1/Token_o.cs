@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace tocaki.a4_Dictionnary.a1;
+﻿namespace tocaki.a4_Dictionnary.a1;
 
 public class Token_o : LexicalToken
 {

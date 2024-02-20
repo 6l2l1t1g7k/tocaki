@@ -1,0 +1,91 @@
+Figure Géoplan
+Numéro de version: 2
+
+Position de Roxy: Xmin: -6.27167630058, Xmax: 3.72832369942, Ymax: 3.04913294798
+Objet dessinable Roxy, particularités: rouge, non dessiné
+
+A point libre
+   Objet libre A, paramètres: -2.54335260116, 0.76589595376
+   Objet dessinable A, particularités: marque épaisse
+B point libre
+   Objet libre B, paramètres: -3.32369942197, -3.16473988439
+   Objet dessinable B, particularités: marque épaisse
+C point libre
+   Objet libre C, paramètres: 3.88728323699, -2.31213872832
+   Objet dessinable C, particularités: marque épaisse
+Segment [AB]
+   Objet dessinable [AB], particularités: trait épais
+Segment [BC]
+   Objet dessinable [BC], particularités: trait épais
+Segment [CA]
+   Objet dessinable [CA], particularités: trait épais
+Droite (AB)
+Droite (BC)
+Droite (CA)
+C' milieu du segment [AB]
+D' milieu du segment [AC]
+A' milieu du segment [BC]
+d3 droite perpendiculaire à (AB) passant par C
+   Objet dessinable d3, particularités: rouge
+d1 droite perpendiculaire à (BC) passant par A
+d2 droite perpendiculaire à (CA) passant par B
+   Objet dessinable d2, particularités: rouge
+H point d'intersection des droites d1 et d2
+   Objet dessinable H, particularités: rouge
+I1 milieu du segment [AH]
+I2 milieu du segment [BH]
+I3 milieu du segment [CH]
+H3 point d'intersection des droites (AB) et d3
+   Objet dessinable H3, particularités: rouge
+H2 point d'intersection des droites (AC) et d2
+   Objet dessinable H2, particularités: rouge
+H1 point d'intersection des droites (BC) et d1
+   Objet dessinable H1, particularités: rouge
+m1 médiatrice du segment [I1H2]
+   Objet dessinable m1, particularités: non dessiné
+m2 médiatrice du segment [I1H3]
+   Objet dessinable m2, particularités: non dessiné
+O point d'intersection des droites m1 et m2
+c1 cercle de centre O passant par I1
+   Objet dessinable c1, particularités: trait épais
+b1 bissectrice de l'angle BAC
+   Objet dessinable b1, particularités: bleu foncé
+b2 bissectrice de l'angle ABC
+   Objet dessinable b2, particularités: bleu
+b3 bissectrice de l'angle ACB
+   Objet dessinable b3, particularités: bleu
+O1 point d'intersection des droites b1 et b2
+p1 projeté orthogonal de O1 sur (AB)
+   Objet dessinable p1, particularités: non dessiné
+c2 cercle de centre O1 passant par p1
+   Objet dessinable c2, particularités: bleu
+b'1 droite perpendiculaire à b1 passant par A
+   Objet dessinable b'1, particularités: bleu
+b'2 droite perpendiculaire à b2 passant par B
+   Objet dessinable b'2, particularités: bleu
+b'3 droite perpendiculaire à b3 passant par C
+   Objet dessinable b'3, particularités: bleu
+C1 point d'intersection des droites b'1 et b'2
+   Objet dessinable C1, particularités: bleu
+C2 point d'intersection des droites b'2 et b'3
+   Objet dessinable C2, particularités: bleu
+C3 point d'intersection des droites b'3 et b'1
+   Objet dessinable C3, particularités: bleu
+p2 projeté orthogonal de C1 sur (AB)
+   Objet dessinable p2, particularités: non dessiné
+p3 projeté orthogonal de C2 sur (BC)
+   Objet dessinable p3, particularités: non dessiné
+p4 projeté orthogonal de C3 sur (AC)
+   Objet dessinable p4, particularités: non dessiné
+c3 cercle de centre C1 passant par p2
+   Objet dessinable c3, particularités: bleu
+c4 cercle de centre C3 passant par p4
+   Objet dessinable c4, particularités: bleu
+c5 cercle de centre C2 passant par p3
+   Objet dessinable c5, particularités: bleu
+
+Sélection pour trace: O
+
+Commentaire
+
+Fin de la figure

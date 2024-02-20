@@ -1,0 +1,77 @@
+Figure Géoplan
+Numéro de version: 2
+
+Position de Roxy: Xmin: -4.2958325717, Xmax: 5.7041674283, Ymax: 4.42626766923
+Objet dessinable Roxy, particularités: rouge, non dessiné
+
+O point de coordonnées (0,0) dans le repère Roxy
+   Objet dessinable O, particularités: nom au-dessus, nom à gauche
+c1 cercle de centre O et de rayon 3 (unité Uoxy)
+d1 droite d'équation Y=0 (repère Roxy)
+d2 droite perpendiculaire à d1 passant par O
+p1 point d'intersection 1 de la droite d1 et du cercle c1
+p2 point d'intersection 2 de la droite d1 et du cercle c1
+p3 point d'intersection 1 de la droite d2 et du cercle c1
+p4 point d'intersection 2 de la droite d2 et du cercle c1
+I milieu du segment [p4O]
+c2 cercle de centre I passant par p1
+p5 point d'intersection 1 de la droite d2 et du cercle c2
+p6 point d'intersection 2 de la droite d2 et du cercle c2
+d3 médiatrice du segment [Op5]
+p7 point d'intersection 1 de la droite d3 et du cercle c1
+p8 point d'intersection 2 de la droite d3 et du cercle c1
+p9 image de p3 par la rotation de centre p7 et d'angle -108 (degré)
+p10 image de p3 par la rotation de centre p8 et d'angle 108 (degré)
+Segment [p3p7]
+Segment [p7p9]
+Segment [p9p10]
+Segment [p10p8]
+Segment [p8p3]
+Segment [p3p9]
+Segment [p3p10]
+Segment [p7p8]
+Segment [p7p10]
+Segment [p9p8]
+p11 point d'intersection des droites (p7p8) et (p9p3)
+   Objet dessinable p11, particularités: nom au-dessous, nom à gauche, marque épaisse
+p12 point d'intersection des droites (p3p10) et (p7p8)
+   Objet dessinable p12, particularités: nom au-dessous, nom à droite, marque épaisse
+p13 point d'intersection des droites (p3p10) et (p8p9)
+   Objet dessinable p13, particularités: nom au-dessus, nom à droite
+p14 point d'intersection des droites (p8p9) et (p10p7)
+   Objet dessinable p14, particularités: couleur RVB(128,0,255), nom à gauche, marque épaisse
+p15 point d'intersection des droites (p9p3) et (p7p10)
+Segment [p11p13]
+   Objet dessinable [p11p13], particularités: rouge foncé
+Segment [p11p14]
+Segment [p12p13]
+Segment [p12p14]
+Segment [p13p15]
+Segment [p12p15]
+p20 point d'intersection des droites (p12p15) et (p11p13)
+   Objet dessinable p20, particularités: bleu foncé, marque épaisse
+arc1 arc d'origine p12 et d'extrémité p11 sur un cercle de centre p20
+   Objet dessinable arc1, particularités: bleu foncé, trait épais
+d4 droite parallèle à (p9p14) passant par p15
+d5 droite parallèle à (p14p10) passant par p13
+p16 point d'intersection des droites d4 et (p7p9)
+   Objet dessinable p16, particularités: couleur RVB(255,128,0), nom à gauche, marque épaisse
+p17 point d'intersection des droites d5 et (p10p8)
+   Objet dessinable p17, particularités: couleur RVB(255,128,0), nom à gauche, marque épaisse
+c3 cercle de centre p14 passant par p15
+p18 point d'intersection de la droite (p3p9) et du cercle c3 autre que p15
+   Objet dessinable p18, particularités: nom à gauche, marque épaisse
+arc2 arc d'origine p11 et d'extrémité p18 sur un cercle de centre p17
+   Objet dessinable arc2, particularités: couleur RVB(255,128,0), trait épais
+p19 point d'intersection de la droite (p3p10) et du cercle c3 autre que p13
+   Objet dessinable p19, particularités: nom à gauche, marque épaisse
+arc3 arc d'origine p19 et d'extrémité p12 sur un cercle de centre p16
+   Objet dessinable arc3, particularités: couleur RVB(255,128,0), trait épais
+arc4 arc d'origine p18 et d'extrémité p19 sur un cercle de centre p14
+   Objet dessinable arc4, particularités: couleur RVB(128,0,255), trait épais
+
+Angles en degrés par défaut
+
+Commentaire
+
+Fin de la figure
