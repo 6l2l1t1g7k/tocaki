@@ -1,0 +1,5 @@
+﻿0 ; exit : Quitte le programme.
+1 ; help : Affiche l'aide.
+2 ; to vers fr ; tocaki vers français : Transcrit du texte tocaki approximativement vers du français.
+3 ; fr to to ; français vers tocaki : Transcrit du texte français approximativement vers du tocaki
+
