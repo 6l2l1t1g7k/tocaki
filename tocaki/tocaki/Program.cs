@@ -11,6 +11,7 @@ Console.WriteLine("Commande \"help\" pour l'aide.");
 // TODO réfléchir à :
 //      - la pertinence d'une base de donné
 // TODO Q? windows n'est pas sensible à la casse pour les noms de fichiers, j'ai envie de tuer certains humains
+// voilàààà
 
 while (!exit)
 {
