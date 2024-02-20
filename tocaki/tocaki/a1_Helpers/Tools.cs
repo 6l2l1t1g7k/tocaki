@@ -1,5 +1,6 @@
 ﻿using System.Text.RegularExpressions;
 using tocaki.a3_ErrorsHandler;
+using tocaki.a4_Dictionnary;
 
 namespace tocaki.a1_Helpers;
 
@@ -70,5 +71,10 @@ public static class Tools
 
         return resultString;
         // TODO utiliser chagpt pour passer en bon français, changer les lettres pour se rapprcher du franàais n'a pas l'air d'améliorer les perfromances de chatGPT
+    }
+
+    public static LexicalToken GetTocakiWord(string userInput)
+    {
+
     }
 }

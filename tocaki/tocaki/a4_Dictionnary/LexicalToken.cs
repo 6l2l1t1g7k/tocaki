@@ -1,18 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.Versioning;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Text;
 
 namespace tocaki.a4_Dictionnary;
 
 public abstract class LexicalToken // TODO Q? putôt interface ou classe abstraire ?
 {
     public abstract string Phonetics { get; }
-    public abstract string DefinitionInTocaki { get; }
+    public virtual string DefinitionInTocaki { get; } = string.Empty;
     public abstract string DefinitionInFrench { get; }
-    public abstract List<string> FrenchWordsAssociated { get; } // TODO implémenter la recherche qui permet de trouver tout les mots tocaki qui font mention du mot français
+    public virtual List<string> FrenchWordsAssociated { get; } = []; // TODO implémenter la recherche qui permet de trouver tout les mots tocaki qui font mention du mot français
+    public virtual List<Type> AssociatedConcepts { get; } = [];
 
     public string PropertiesToString()
     {
