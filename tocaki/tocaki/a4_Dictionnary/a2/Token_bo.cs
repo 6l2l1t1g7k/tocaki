@@ -1,6 +1,6 @@
-﻿namespace tocaki.a4_Dictionnary.a1;
+﻿namespace tocaki.a4_Dictionnary.a2;
 
-public class Token_bA : LexicalToken
+public class Token_bo : LexicalToken
 {
     public override string Phonetics { get => "bo"; }
     public override string DefinitionInTocaki { get => ">"; }

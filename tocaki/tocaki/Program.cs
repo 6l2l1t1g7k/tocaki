@@ -13,6 +13,8 @@ Console.WriteLine("Commande \"help\" pour l'aide.");
 // TODO Q? windows n'est pas sensible à la casse pour les noms de fichiers, j'ai envie de tuer certains humains
 // voilàààà
 
+// TODO lister les jetons phonétiques disponibles
+
 while (!exit)
 {
     Console.Write("Commande: ");
