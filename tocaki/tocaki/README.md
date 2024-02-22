@@ -15,3 +15,7 @@ il mE fo de zHti dE jenerasyM dE la sBit du lAgaj,
 
 # remarque
 	- Obligé de mettre _2 pour certain nom de fichier à cause de windows qui n'est pas sensible à la casse.
+
+# kMstruksyM dE la lAg
+	- la konesAs e tµ graf kGlkMk
+	- la struktur du tocaki e dMk dE lorganizasyM dE la konesAs sHjasAt dwa Gtr µ narbr, se ta dir kil dwa ni avwar kµ sLl parA prNsipal pHr qak kMsGpt, e A sBit M pE avwar otA dE pArA sEgMdGr kE lM vE => vwar klas mo

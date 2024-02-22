@@ -12,6 +12,10 @@ Console.WriteLine("Commande \"help\" pour l'aide.");
 //      - la pertinence d'une base de donné
 // TODO Q? windows n'est pas sensible à la casse pour les noms de fichiers, j'ai envie de tuer certains humains
 // voilàààà
+// TODO Q? comment je gère les names spaces qui ne sont plus consistant avec les dossiers ? 
+// plutôt garder les namespaces logique ou créer un namespace dédier à chaque fois pour garder la cohérence avec les dossiers ? (a priori on voudrais les namespace, mais 
+// 1 ça va faire exploser leur nombre
+// 2 ça va rendre non régulier leur utilisation, parfois les fichiers en feuille de l'arbre seront plus bas que d'autre
 
 // TODO lister les jetons phonétiques disponibles
 

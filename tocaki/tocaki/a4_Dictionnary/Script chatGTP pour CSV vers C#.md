@@ -1,6 +1,6 @@
-Voici un nouveau fichier CSV
+Voici un fichier CSV
 attention il est encodé en UTF-16
-attention il y a des caractères spéciaux
+attention il y a des caractères spéciaux qui rende la lecture difficile pour toi
 
 Je veux pour chaque ligne de ce tableau tu fasses la procédure suivante :
 tu vas créer un fichier .cs que tu va appeler Token_BALISENOM.cs
@@ -18,9 +18,9 @@ public class Token_BALISEFONETIK : LexicalToken
     public override List<string> FrenchWordsAssociated { get => []; }
 }
 "
-à la place de BALISEFONETIK tu écris la valeur qui se trouve dans la colonne "fonetik"
+à la place de BALISEFONETIK tu écris la valeur qui se trouve dans la colonne "fonetik" mais sans le nomnbre aléatoire cette fois (ça ressemble mais c'est donc différent de l'injection faite juste avant)
 à la place de BALISETOCAKI tu écris la valeur qui se trouve dans la colonne "definisyM"
 à la place de BALISEFRANCAIS tu écris la valeur qui se trouve dans la colonne "Explication, exemple"
 pour le code C# "get => [];" je veux que tu le laisses exactement comme ça
 
-Commence par faire ce travail pour les 10 premières lignes et je te dirais quand je veux que tu fasses le reste.
+Fais ce travail pour les 20 premières lignes de mon fichier et donne moi un lien pour les télécharger
