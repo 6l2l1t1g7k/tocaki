@@ -1,6 +1,6 @@
 ﻿using tocaki.a1_Helpers;
-using tocaki.a4_Dictionnary;
-using tocaki.a4_Dictionnary.a1;
+using tocaki.a4_Dictionary;
+using tocaki.a4_Dictionary.a1;
 
 bool exit = false;
 string userInput;
@@ -21,6 +21,7 @@ Console.WriteLine("Commande \"help\" pour l'aide.");
 
 while (!exit)
 {
+    Console.WriteLine();
     Console.Write("Commande: ");
     userInput = Console.ReadLine() ?? string.Empty;
 
@@ -40,6 +41,7 @@ while (!exit)
         case "tocaki vers français":
             Console.Write("Text tocaki : ");
             userInput = Console.ReadLine() ?? string.Empty;
+            Console.WriteLine("Transcription :");
             Console.WriteLine(Tools.TocakiToFrench(userInput));
             break;
         case "3":

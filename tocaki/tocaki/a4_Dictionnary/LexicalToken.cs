@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace tocaki.a4_Dictionnary;
+namespace tocaki.a4_Dictionary;
 
 public abstract class LexicalToken // TODO Q? putôt interface ou classe abstraire ?
 {

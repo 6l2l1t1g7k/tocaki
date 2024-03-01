@@ -1,6 +1,6 @@
 ﻿using System.Text.RegularExpressions;
 using tocaki.a3_ErrorsHandler;
-using tocaki.a4_Dictionnary;
+using tocaki.a4_Dictionary;
 
 namespace tocaki.a1_Helpers;
 
@@ -75,6 +75,6 @@ public static class Tools
 
     public static LexicalToken GetTocakiWord(string userInput)
     {
-
+        throw new Exception(); // TODO
     }
 }

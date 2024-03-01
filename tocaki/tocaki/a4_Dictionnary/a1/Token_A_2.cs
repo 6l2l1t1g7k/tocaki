@@ -1,4 +1,4 @@
-﻿namespace tocaki.a4_Dictionnary.a1;
+﻿namespace tocaki.a4_Dictionary.a1;
 
 public class Token_A : LexicalToken // TODO Q? retirer le % du nom de fichier
 {

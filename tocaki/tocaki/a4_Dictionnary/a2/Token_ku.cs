@@ -1,4 +1,4 @@
-namespace tocaki.a4_Dictionnary.a2;
+namespace tocaki.a4_Dictionary.a2;
 
 public class Token_ku12 : LexicalToken
 {
