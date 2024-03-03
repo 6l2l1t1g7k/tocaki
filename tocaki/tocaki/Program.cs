@@ -19,6 +19,13 @@ Console.WriteLine("Commande \"help\" pour l'aide.");
 
 // TODO lister les jetons phonétiques disponibles
 
+// TODO tester le ternaire pour ça :
+//x > 12 ? {
+//    sfsqsdf;
+//    } : {
+
+//}
+
 while (!exit)
 {
     Console.WriteLine();

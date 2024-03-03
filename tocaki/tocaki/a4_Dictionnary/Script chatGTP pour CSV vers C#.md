@@ -4,9 +4,10 @@ attention il y a des caractères spéciaux qui rendent la lecture difficile pour
 
 Je veux pour chaque ligne de ce tableau tu fasses la procédure suivante :
 tu vas créer un fichier .cs que tu va appeler Token_BALISENOM.cs
-Tâche1 : Tu dois remplacer BALISENOM par le texte de la colonne "fonetik" auquel tu rajoutes un nombre aléatoire entre 1 et 99.
 
-Tâche2 : Ensuite dans chaque fichier tu vas écrire le code suivant :
+Tu dois remplacer BALISENOM par le texte de la colonne "fonetik" auquel tu rajoutes un nombre aléatoire entre 1 et 99.
+
+Ensuite dans chaque fichier tu vas écrire le code suivant :
 "
 namespace tocaki.a4_Dictionnary.a2;
 
@@ -18,7 +19,7 @@ public class Token_BALISEFONETIK : LexicalToken
     public override List<string> FrenchWordsAssociated { get => []; }
 }
 "
-- à la place de BALISEFONETIK tu écris la valeur qui se trouve dans la colonne "fonetik" mais sans le nombre aléatoire cette fois (attention cette action est différente de la Tâche1)
+- à la place de BALISEFONETIK tu écris la valeur qui se trouve dans la colonne "fonetik" mais sans le nombre aléatoire cette fois
 - à la place de BALISETOCAKI tu écris la valeur qui se trouve dans la colonne "definisyM"
 - à la place de BALISEFRANCAIS tu écris la valeur qui se trouve dans la colonne "Explication, exemple"
 - pour le code C# "get => [];" je veux que tu le laisses exactement comme ça
