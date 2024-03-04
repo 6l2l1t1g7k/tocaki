@@ -8,6 +8,10 @@ public abstract class LexicalToken // TODO Q? putôt interface ou classe abstrai
     // pour les autre liens d'endance possible il suffit de créer des lients avec un liste et là ça va faire un graphe en bordel mais c'est pas grave
     // mettre en place en susyème qui gère cette gestion de graphe du langage
 
+    /// <summary>
+    /// Le premier concept est le concept principal, le réseau de concept principal doit constituer et respecter une structure d'arbre
+    /// </summary>
+    public abstract List<Type> ParentConcepts { get; }
     public abstract string Phonetics { get; }
     public virtual string DefinitionInTocaki { get; } = string.Empty;
     public abstract string DefinitionInFrench { get; }
@@ -18,8 +22,7 @@ public abstract class LexicalToken // TODO Q? putôt interface ou classe abstrai
     public virtual List<string> FrenchWordsAssociated { get; } = []; // TODO implémenter la recherche qui permet de trouver tout les mots tocaki qui font mention du mot français
     public virtual List<Type> AssociatedConcepts { get; } = [];
 
-    public string PropertiesToString()
-    {
+    public string PropertiesToString() {
         StringBuilder result = new();
 
         result.Append($"Phonétique : {Phonetics}");
@@ -27,13 +30,11 @@ public abstract class LexicalToken // TODO Q? putôt interface ou classe abstrai
         result.Append($"\nDéfinition en français : {DefinitionInFrench}");
 
         StringBuilder frenchWordList = new();
-        foreach (string word in FrenchWordsAssociated)
-        {
+        foreach (string word in FrenchWordsAssociated) {
             result.Append(" ; ");
             result.Append("" + word);
         }
-        if (frenchWordList.Length > 3)
-        {
+        if (frenchWordList.Length > 3) {
             frenchWordList.Remove(0, 3);
         }
 

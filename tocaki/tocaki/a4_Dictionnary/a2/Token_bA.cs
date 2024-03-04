@@ -1,4 +1,5 @@
-﻿namespace tocaki.a4_Dictionary.a2;
+﻿
+namespace tocaki.a4_Dictionary.a2;
 
 public class Token_bA : LexicalToken
 {
@@ -6,4 +7,6 @@ public class Token_bA : LexicalToken
     public override string DefinitionInTocaki { get => "[]-vuma-*"; }
     public override string DefinitionInFrench { get => "Intensité 5/10 (50%)"; }
     public override List<string> FrenchWordsAssociated { get => []; }
+
+    public override List<Type> ParentConcepts { get => []; }
 }

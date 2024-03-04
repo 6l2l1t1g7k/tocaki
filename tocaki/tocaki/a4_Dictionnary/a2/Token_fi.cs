@@ -8,4 +8,6 @@ public class Token_fi : LexicalToken
     public override string DefinitionInTocaki { get => "fu⋃ri"; }
     public override string DefinitionInFrench { get => "« tu » et « il », vous"; }
     public override List<string> FrenchWordsAssociated { get => []; }
+
+    public override List<Type> ParentConcepts { get => []; }
 }

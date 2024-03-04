@@ -8,4 +8,6 @@ public class Token_special01 : LexicalToken // TODO comment commer toutes ces cl
     public override string DefinitionInTocaki { get => "$"; }
     public override string DefinitionInFrench { get => "« gn » de parking"; }
     public override List<string> FrenchWordsAssociated { get => []; }
+
+    public override List<Type> ParentConcepts { get => []; }
 }

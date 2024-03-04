@@ -8,4 +8,6 @@ public class Token_Te_3 : LexicalToken
     public override string DefinitionInTocaki { get => "T"; }
     public override string DefinitionInFrench { get => "« the » anglais"; }
     public override List<string> FrenchWordsAssociated { get => []; }
+
+    public override List<Type> ParentConcepts { get => []; }
 }

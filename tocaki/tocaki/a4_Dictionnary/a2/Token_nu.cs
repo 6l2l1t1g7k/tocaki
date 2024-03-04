@@ -8,4 +8,6 @@ public class Token_nu : LexicalToken
     public override string DefinitionInTocaki { get => "reglu-[]"; }
     public override string DefinitionInFrench { get => "marqueur des temps descriptif"; }
     public override List<string> FrenchWordsAssociated { get => []; }
+
+    public override List<Type> ParentConcepts { get => []; }
 }

@@ -8,4 +8,6 @@ public class Token_rM : LexicalToken
     public override string DefinitionInTocaki { get => "¬izomDrf a Dbje referAse"; }
     public override string DefinitionInFrench { get => "le « faux » logique"; }
     public override List<string> FrenchWordsAssociated { get => []; }
+
+    public override List<Type> ParentConcepts { get => []; }
 }

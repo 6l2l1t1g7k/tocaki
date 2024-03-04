@@ -8,4 +8,6 @@ public class Token_ro : LexicalToken
     public override string DefinitionInTocaki { get => "[]-vuma-*"; }
     public override string DefinitionInFrench { get => ""; }
     public override List<string> FrenchWordsAssociated { get => []; }
+
+    public override List<Type> ParentConcepts { get => []; }
 }

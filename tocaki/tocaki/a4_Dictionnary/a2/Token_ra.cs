@@ -8,4 +8,6 @@ public class Token_ra : LexicalToken
     public override string DefinitionInTocaki { get => "maRkLR du futuR"; }
     public override string DefinitionInFrench { get => "marqueur du futur"; }
     public override List<string> FrenchWordsAssociated { get => []; }
+
+    public override List<Type> ParentConcepts { get => []; }
 }

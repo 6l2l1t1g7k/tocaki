@@ -8,4 +8,6 @@ public class Token_su : LexicalToken
     public override string DefinitionInTocaki { get => "+"; }
     public override string DefinitionInFrench { get => "+,addition,plus"; }
     public override List<string> FrenchWordsAssociated { get => []; }
+
+    public override List<Type> ParentConcepts { get => []; }
 }

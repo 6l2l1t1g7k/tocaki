@@ -8,4 +8,6 @@ public class Token_za : LexicalToken
     public override string DefinitionInTocaki { get => "="; }
     public override string DefinitionInFrench { get => "=, égal, être"; }
     public override List<string> FrenchWordsAssociated { get => []; }
+
+    public override List<Type> ParentConcepts { get => []; }
 }

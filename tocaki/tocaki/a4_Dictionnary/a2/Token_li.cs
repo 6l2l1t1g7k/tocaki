@@ -1,3 +1,4 @@
+
 namespace tocaki.a4_Dictionary.a2;
 
 public class Token_li : LexicalToken
@@ -6,4 +7,6 @@ public class Token_li : LexicalToken
     public override string DefinitionInTocaki { get => "Possessif singulier de ji (ja⋃ri)"; }
     public override string DefinitionInFrench { get => ""; }
     public override List<string> FrenchWordsAssociated { get => []; }
+
+    public override List<Type> ParentConcepts { get => []; }
 }
