@@ -1,5 +1,8 @@
-Voici un fichier CSV
-attention il est encodé en UTF-16
+Voici un fichier .csv qui contient des données
+le codage est UTF-16
+Le séparateur de champ est ,
+Le séparateur de mot est "
+
 attention il y a des caractères spéciaux qui rendent la lecture difficile
 attention il y a des virgules dans les données
 attention il y a des cases de données vides
@@ -27,4 +30,4 @@ Dans ce que je t'ai demandé plus haut je que :
 - à la place de BALISEFRANCAIS tu écris la valeur qui se trouve dans la colonne "Explication, exemple"
 - pour le code C# "get => [];" je veux que tu le laisses exactement comme ça
 
-Fais ce travail pour les 20 premières lignes de mon fichier.
+Fais ce travail pour les 20 premières lignes de mon fichier pour que je puisse les télécharger
