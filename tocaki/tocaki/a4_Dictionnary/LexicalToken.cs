@@ -2,6 +2,9 @@
 
 namespace tocaki.a4_Dictionary;
 
+/// <summary>
+/// Propriété facultative : LinkedConcepts ;
+/// </summary>
 public abstract class LexicalToken // TODO Q? putôt interface ou classe abstraire ?
 {
     // TODO chaque mot doit avoir un et un seul parent principal => arbre d"héritage, qu'est ce que ça apporte d'avoir une représentation par un arbre principal plutôt que de se contenter du graphe des connaissances ?

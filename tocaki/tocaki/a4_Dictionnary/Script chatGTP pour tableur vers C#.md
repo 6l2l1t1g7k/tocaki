@@ -30,4 +30,4 @@ Dans ce que je t'ai demandé plus haut je que :
 - à la place de BALISEFRANCAIS tu écris la valeur qui se trouve dans la colonne "Explication, exemple"
 - pour le code C# "get => [];" je veux que tu le laisses exactement comme ça
 
-Fais ce travail pour les 20 premières lignes de mon fichier pour que je puisse les télécharger
+Fais ce travail pour me donner a télécharger les fichiers pour les 20 premières lignes
