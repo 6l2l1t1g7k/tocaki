@@ -19,3 +19,4 @@ il mE fo de zHti dE jenerasyM dE la sBit du lAgaj,
 # kMstruksyM dE la lAg
 	- la konesAs e tµ graf kGlkMk
 	- la struktur du tocaki e dMk dE lorganizasyM dE la konesAs sHjasAt dwa Gtr µ narbr, se ta dir kil dwa ni avwar kµ sLl parA prNsipal pHr qak kMsGpt, e A sBit M pE avwar otA dE pArA sEgMdGr kE lM vE => vwar klas mo
+	- le kMsGpt dwav tGtr NjGktif vGr lE tocaki, me pa bijGktif, µ mGm kMsGpt pE sGksprime dE fasM diferAt => lE tocaki, kDm tHt lAg pE Gtr surjGktif vGr le kMsGpt, me pa de multivaluasyM, pa dE surqarj semAtik (lE minimLm du mwN)

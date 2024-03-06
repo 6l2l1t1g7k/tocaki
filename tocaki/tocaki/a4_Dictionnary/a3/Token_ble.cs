@@ -2,7 +2,7 @@ using tocaki.a4_Dictionary;
 
 namespace tocaki.a4_Dictionnary.a3;
 
-public class Token_ble : LexicalToken
+public class Token_stRa : LexicalToken
 {
     public override string Phonetics { get => "ble"; }
     public override string DefinitionInTocaki { get => "∅0"; }
