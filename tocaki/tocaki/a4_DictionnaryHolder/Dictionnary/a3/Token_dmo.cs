@@ -1,0 +1,13 @@
+using tocaki.a4_DictionaryHolder;
+
+namespace tocaki.a4_DictionnaryHolder.Dictionnary.a3;
+
+public class Token_dmo : LexicalToken
+{
+    public override List<Type> ParentConcepts => [];
+    public override string Phonetics { get => "dmo"; }
+    public override string DefinitionInTocaki { get => "[]-vuma-*"; }
+    public override string DefinitionInFrench { get => ""; }
+    public override List<string> FrenchWordsAssociated { get => []; }
+
+}

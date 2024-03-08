@@ -1,6 +1,6 @@
 ﻿using tocaki.a1_Helpers;
-using tocaki.a4_Dictionary;
-using tocaki.a4_Dictionary.a1;
+using tocaki.a4_DictionaryHolder;
+using tocaki.a4_DictionnaryHolder.Dictionnary.a1;
 
 bool exit = false;
 string userInput;

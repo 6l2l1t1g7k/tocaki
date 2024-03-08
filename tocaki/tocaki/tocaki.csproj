@@ -15,7 +15,8 @@
 
   <ItemGroup>
     <Folder Include="a2_Ressources\" />
-    <Folder Include="a4_Dictionnary\En cours\" />
+    <Folder Include="a4_DictionnaryHolder\En cours\" />
+    <Folder Include="a4_DictionnaryHolder\NewFolder\" />
   </ItemGroup>
 
 </Project>
