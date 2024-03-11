@@ -11,6 +11,9 @@
     <None Update="a1_Helpers\Help Instructions.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Update="a4_DictionnaryHolder\Ressources logicielles\7_flagla(tocaki).txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
   <ItemGroup>

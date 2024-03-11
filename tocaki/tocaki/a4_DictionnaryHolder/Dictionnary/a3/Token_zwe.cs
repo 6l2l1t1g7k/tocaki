@@ -8,5 +8,5 @@ public class Token_zwe : LexicalToken
     public override string Phonetics { get => "zwe"; }
     public override string DefinitionInTocaki { get => "z"; }
     public override string DefinitionInFrench { get => "z"; }
-    public override List<string> FrenchWordsAssociated { get => [""]; } // TODO créer la commande qui permet d'avoir toute les variations mécanique d'un morphème de base nom, adjecti, adverbe ... formaliser tout ça
+    public override List<string> FrenchWordsAssociated { get => [""]; }
 }

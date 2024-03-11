@@ -5,12 +5,8 @@ namespace tocaki.a4_DictionaryHolder;
 /// <summary>
 /// Propriété facultative : LinkedConcepts ;
 /// </summary>
-public abstract class LexicalToken // TODO Q? putôt interface ou classe abstraire ?
+public abstract class LexicalToken
 {
-    // TODO chaque mot doit avoir un et un seul parent principal => arbre d"héritage, qu'est ce que ça apporte d'avoir une représentation par un arbre principal plutôt que de se contenter du graphe des connaissances ?
-    // pour les autre liens d'endance possible il suffit de créer des lients avec un liste et là ça va faire un graphe en bordel mais c'est pas grave
-    // mettre en place en susyème qui gère cette gestion de graphe du langage
-
     /// <summary>
     /// Le premier concept est le concept principal, le réseau de concept principal doit constituer et respecter une structure d'arbre
     /// </summary>
@@ -28,14 +24,14 @@ public abstract class LexicalToken // TODO Q? putôt interface ou classe abstrai
     public string PropertiesToString() {
         StringBuilder result = new();
 
-        result.Append($"Phonétique : {Phonetics}");
+        result.Append($"\nPhonétique : {Phonetics}");
         result.Append($"\nDéfinition tocaki : {DefinitionInTocaki}");
         result.Append($"\nDéfinition en français : {DefinitionInFrench}");
 
         StringBuilder frenchWordList = new();
         foreach (string word in FrenchWordsAssociated) {
-            result.Append(" ; ");
-            result.Append("" + word);
+            frenchWordList.Append(" ; ");
+            frenchWordList.Append("" + word);
         }
         if (frenchWordList.Length > 3) {
             frenchWordList.Remove(0, 3);
