@@ -29,3 +29,6 @@
 	pronom
 	prépostion ; conjonction ; déterminant
 	interjection
+
+
+	rumze

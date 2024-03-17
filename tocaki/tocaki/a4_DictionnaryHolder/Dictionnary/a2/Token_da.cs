@@ -4,10 +4,10 @@ namespace tocaki.a4_DictionnaryHolder.Dictionnary.a2;
 
 public class Token_da16 : LexicalToken
 {
-    public override string Phonetics { get => "da"; }
-    public override string DefinitionInTocaki { get => "reglu-[]"; }
-    public override string DefinitionInFrench { get => "&&&&&&"; }
-    public override List<string> FrenchWordsAssociated { get => new List<string>(); }
+    public override string Phonetics => "da";
+    public override string DefinitionInTocaki => "reglu-[]";
+    public override string DefinitionInFrench => "";
+    public override List<string> FrenchWordsAssociated => [];
 
-    public override List<Type> ParentConcepts { get => []; }
+    public override List<Type> ParentConcepts => [];
 }

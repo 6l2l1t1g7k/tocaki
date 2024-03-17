@@ -6,3 +6,4 @@
 5 : Afficher mot tocaki : Affiche toute les informations d'un mot tocaki.
 6 : Rechercher occurence français : Recherche les références d'un mot français en vu d'une traduction en tocaki.
 7 : Afficher toutes les formes grammaticale d'une racine lexicale.
+8 : Tri fusion manuel : Effectue un tri fusion sur la liste d'objet text donné en paramètre. (exemple 8 C:/fichier.txt)
